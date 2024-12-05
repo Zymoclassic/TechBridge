@@ -1,0 +1,276 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0 0;
+    overflow: scroll;
+    overflow-x: hidden;
+    font-family: sans-serif;
+    /* position: relative; */
+}
+
+.content{
+    width: 100%;
+}
+
+
+.kongaAds, .ads{
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 3px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.header2{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-around;
+    height: 60px;
+    margin-top: 10px;
+    background-color: rgb(243, 24, 133);
+    align-items: center;
+    font-size: 13px;
+    font-weight: 2px;
+    line-height: 20px;
+}
+
+#header2{
+    height: 35px;
+}
+
+#header2a{
+    width: 60px;
+}
+
+input[type="text"]{
+    padding: 5px 10px;
+    width: 400px;
+}
+
+button{
+    background-color: rgb(236, 144, 5);
+    border: 0;
+    border-radius: 2px;
+    height: 30px;
+    width: 40px;
+}
+
+#icon{
+    width: 20px;
+    background-color: rgb(236, 144, 5);
+    padding: 4px 4px;
+    border-radius: 2px;
+}
+
+#header{
+    height: 45px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: rgb(146, 11, 76);
+    font-size: 13px;
+    font-weight: 2px;
+
+}
+
+.header{
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(146, 11, 76);
+}
+
+#icon2{
+    background-color: rgb(245, 148, 208);
+    border-radius: 50%;
+    height: 25px;
+}
+
+#icon3{
+    height: 25px;
+}
+#icon4{
+    height: 25px;
+}
+
+#login{
+    width: 40px;
+    height: 39px;
+}
+
+#cart{
+    width: 120px;
+    height: 38px;
+    /* padding: 20px; */
+    background-color: rgb(6, 220, 145);
+    align-content: center;
+    color: white;
+    border: 0;
+}
+
+span{
+    height: 40px;
+    width: 50px;
+    background-color: white;
+    color: black;
+}
+
+#menu{
+    width: 15px;
+    height: 20px;
+    font-weight: bold;
+}
+
+h4{
+    font-size: 15px;
+    text-align: center;
+    /* width: 100px; */
+    height: 50px;
+}
+
+.deals{
+    color: black;
+    display: inline-flex;
+    gap: 5px;
+    margin: 5px 15px;
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+#deals{
+    color: rgb(146, 11, 76);
+    font-weight: bold;
+}
+
+#online{
+    margin: 0 25px;
+    font-weight: bolder;
+    font-size: 40px;
+    height: 60px;
+}
+
+.banner{
+    background-color: rgb(230, 228, 228);
+  
+}
+
+#banner{
+    width: 95%;
+    height: 250px;
+    margin: 30px 25px;
+}
+
+.grid-container{
+    width: 95%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin: 1rem;
+
+}
+
+
+.grid-items{
+    background-color: white;
+    border: 3px solid white;
+    height: 448px;
+    border-radius: 0.5rem;
+}
+
+.grid-items img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.contact-info{
+    height: 85px;
+    background-color: rgb(59, 55, 55);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    margin-top: 35px;
+}
+
+#contact-info{
+    color: rgb(193, 186, 186);
+}
+input[type="email"]{
+    padding: 15px 15px;
+}
+#sub{
+    width: 95px;
+    height: 48px;
+    background-color: rgb(243, 24, 133);
+    color: white;
+    text-align: center;
+ 
+}
+
+.other-info{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    height: 400px;
+    line-height: 30px;
+    font-size: 15px;
+    /* margin-top: 3px; */
+}
+ul{
+    font-size: 13px;
+    color: rgb(154, 150, 150);
+}
+
+
+#items{
+    width: 100%;
+    height: 180px;
+}
+.grid-items1{
+    height: 50px;
+    font-size: 15px;
+    margin: 0 5px;
+}
+.img{
+    color: black;
+    height: 150px;
+}
+#imgs{
+    height: 4px;
+    /* margin: 10px; */
+    display: inline-flex;
+    gap: 3px;
+    align-items: center;
+    
+}
+hr{
+    border: 1px solid rgb(245, 242, 242);
+    /* color: grey; */
+}
+#cart-add{
+    color: rgb(243, 24, 133);
+    background-color: white;
+    border: 1px solid rgb(243, 24, 133);
+    /* padding: 8px 100px; */
+    text-align: center;
+    width: 210px;
+    height: 38px;
+    font-size: 15px;
+    font-weight: bold;
+}
