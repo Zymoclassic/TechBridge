@@ -1,0 +1,156 @@
+body{
+    background-color: rgb(253, 248, 248);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 400px;
+    height: 100vh;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    margin: 24px 25px;
+    background-color: white;
+}
+
+#heading{
+    color: blue;
+    font-family: sans-serif;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.header {
+    text-align: center;
+    width: 20rem;
+    font-size: 12px;
+    font-family: sans-serif;
+    letter-spacing: .1px;
+}
+
+hr {
+    margin: 2rem auto;
+    border: 0.1rem solid rgb(249, 245, 245);
+}
+
+h1 {
+    letter-spacing: 0.1px;
+    margin: 10px auto;
+    font-size: 20px;
+}
+
+p{
+    margin: 0 auto;
+    font-size: 0.6rem;
+}
+
+
+.box {
+    margin: 0 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input[type="text"] {
+    padding: 0.2rem 0.4rem;
+    height: 2rem;
+    border: 2px solid whitesmoke;
+    border-radius: 0.25rem;
+    margin: 0 auto;
+    outline-color: rgb(5, 81, 147);
+}
+
+.date {
+    margin: 0.75rem auto;
+    font-size: 0.8rem;
+    letter-spacing: 0.2px;
+}
+
+span {
+    border-radius: 50%;
+    height: 0.5rem;
+    background-color: grey;
+    color: white;
+}
+
+select  {
+    margin: 0.3rem auto;
+    padding: 0.25rem 0.5rem;
+    width: 15rem;
+    height: 35px;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    font-size: 12px;
+}
+p{
+    margin: 0 auto;
+
+}
+
+
+#gender{
+    margin:  0.5rem auto;
+    padding: 2px 2px;
+    height: 35px;
+    width: 6rem;
+    background-color: white;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+}
+.gender{
+    font-size: 10px;
+    margin: 0px auto;
+}
+
+input[type="text2"]{
+    width: 360px;
+    height: 35px;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    margin: 7px auto;
+    outline-color: rgb(5, 81, 147);
+}
+input[type="password"]{
+    width: 360px;
+    height: 35px;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    margin: 10px auto;
+    outline-color: rgb(5, 81, 147);
+}
+
+.text{
+    font-size: 10.7px;
+    margin: 0 auto;
+    padding: 5px 5px;
+    width: 360px;
+    color: grey;
+    height: 90px;
+}
+button{
+    background-color: rgb(4, 164, 4);
+    color: white;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 150px;
+    height: 31px;
+    margin: 8px auto;
+}
+p2{
+    color: rgb(5, 81, 147);
+    text-align: center;
+    font-size: 13px;
+}
+.last{
+    text-align: center;
+    margin: 0 auto;
+}
+
+a[href="learn"]{
+    color: rgb(5, 81, 147);
+    text-decoration-line: none;
+}
